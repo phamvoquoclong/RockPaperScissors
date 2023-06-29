@@ -12,4 +12,4 @@ The average accuracy score for this model is > 95%
 
 **Evaluation**  
 ![image](https://github.com/phamvoquoclong/RockPaperScissors/assets/136946649/8df90691-26bb-4d80-a280-c2be5d13fef2)
-Test accuracy: 0.958
+Test r2_score: 0.958
