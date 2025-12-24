@@ -1,15 +1,49 @@
-# RockPaperScissors
 
-**Introduction**  
-Getting hand landmarks data by using Mediapipe, which feeds into a deep learning model and put it in real-time.  
+---
 
-**Hand Images**  
-![image](https://github.com/phamvoquoclong/RockPaperScissors/assets/136946649/7f5c643c-b035-4d46-836b-1b45d3cfdef8)
+## 🎯 Demo Objectives
 
-**Hand Landmarks Images**  
-![image](https://github.com/phamvoquoclong/RockPaperScissors/assets/136946649/447d7d00-1976-4696-82ee-370c29470fc2)
+The goal of this demo is to demonstrate a **complete and practical computer vision pipeline**, including:
 
-**Evaluation**  
-![image](https://github.com/phamvoquoclong/RockPaperScissors/assets/136946649/fdd7c6a1-e86f-41ac-a46f-c9dae97e9556)
-Acc for test data: 0.9929078221321106  
-Los for test data: 0.13190792500972748
+- Multi-object fashion detection
+- Improved recall for small objects (rings, watches, accessories)
+- Multi-label attribute prediction per detected object
+- Clean, standardized output format for downstream usage
+
+This demo is intended as a **proof-of-concept system**.
+
+---
+
+## 🚀 Features
+
+### ✅ Object Detection
+- YOLOv11-based detection
+- Supports apparel and accessory categories
+- GPU acceleration via CUDA when available
+
+### ✅ SAHI Integration
+- Optional SAHI inference for small objects
+- Toggleable directly from the UI
+- Helps recover tiny fashion items often missed by standard inference
+
+### ✅ Attribute Recognition
+- Each detected object is cropped and passed to an attribute head
+- Multi-label prediction (one object → multiple attributes)
+- Attribute IDs are mapped to human-readable names
+
+### ✅ Output Formats
+- Visual output with bounding boxes
+- Tabular summary (class, confidence, attributes)
+- JSON output matching submission format
+
+Example JSON output:
+```json
+[
+  {
+    "label": "Cardigan",
+    "confidence": 0.97,
+    "box": [100, 175, 715, 971],
+    "attributes": ["Plain pattern", "Short length", "Single breasted"]
+  }
+]
+![alt text](image.png)
