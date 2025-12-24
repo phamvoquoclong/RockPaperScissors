@@ -36,6 +36,9 @@ This demo is intended as a **proof-of-concept system**.
 - Tabular summary (class, confidence, attributes)
 - JSON output matching submission format
 
+<img width="711" height="888" alt="image" src="https://github.com/user-attachments/assets/6800722d-aa52-4d4f-980b-228365580773" />
+<img width="692" height="859" alt="image" src="https://github.com/user-attachments/assets/9ef7a5e5-36db-4e48-9ebd-307863b2d4a8" />
+
 Example JSON output:
 ```json
 [
@@ -47,6 +50,4 @@ Example JSON output:
   }
 ]
 
-<img width="711" height="888" alt="image" src="https://github.com/user-attachments/assets/9bfe9ee5-4770-49ce-a02d-8bbac20a92ec" />
-<img width="692" height="859" alt="image" src="https://github.com/user-attachments/assets/4be54b91-89c1-43a5-8d8f-9480d8194b23" />
 
