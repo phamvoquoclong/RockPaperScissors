@@ -46,4 +46,7 @@ Example JSON output:
     "attributes": ["Plain pattern", "Short length", "Single breasted"]
   }
 ]
-![alt text](image.png)
+
+<img width="711" height="888" alt="image" src="https://github.com/user-attachments/assets/9bfe9ee5-4770-49ce-a02d-8bbac20a92ec" />
+<img width="692" height="859" alt="image" src="https://github.com/user-attachments/assets/4be54b91-89c1-43a5-8d8f-9480d8194b23" />
+
